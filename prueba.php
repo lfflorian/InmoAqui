@@ -25,6 +25,7 @@
             url:'datareturn.php',
             success:function(data){
                 renderShows(data);
+                console.log(data);
             }
         });
     }
